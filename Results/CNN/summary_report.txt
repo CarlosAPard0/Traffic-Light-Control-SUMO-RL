@@ -1,0 +1,26 @@
+REPORTE DE COMPARACIÓN: SEMÁFOROS TRADICIONALES vs IA (PPO)
+============================================================
+
+CONFIGURACIÓN DEL EXPERIMENTO:
+- Número de escenarios: 10
+- Tiempo de simulación: 540 segundos
+- Delta time: 5 segundos
+
+ESTADÍSTICAS DESCRIPTIVAS:
+            system_mean_waiting_time                        system_mean_speed                         system_total_arrived     
+                                mean      std  min      max              mean     std     min     max                 mean  std
+model_type                                                                                                                     
+IA (PPO)                      3.2748   5.8271  0.0  61.4043            4.2777  1.2912  0.6592  8.3730                  0.0  0.0
+Tradicional                   9.6195  11.5114  0.0  90.9340            3.1137  1.6265  0.1229  8.9124                  0.0  0.0
+
+PRUEBAS ESTADÍSTICAS (t-test pareado):
+WAITING_TIME:
+  t-statistic: 7.4683
+  p-value: 0.0000
+  Significativo (α=0.05): Sí
+
+SPEED:
+  t-statistic: -13.5027
+  p-value: 0.0000
+  Significativo (α=0.05): Sí
+

@@ -1,0 +1,14 @@
+REPORTE DE EVALUACIÓN TEMPORAL: CNN vs TRADICIONAL
+============================================================
+
+Número de escenarios: 10
+Tiempo de simulación: 540 segundos
+Delta time: 5 segundos
+
+ESTADÍSTICAS RESUMIDAS:
+             system_mean_speed         system_mean_waiting_time         
+                          mean     std                     mean      std
+model_type                                                              
+IA (PPO-CNN)            4.2677  1.3845                   3.8390   6.9168
+Tradicional             3.1145  1.6251                   9.4657  11.5703
+
