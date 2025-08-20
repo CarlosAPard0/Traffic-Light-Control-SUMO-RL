@@ -34,9 +34,9 @@ For testing, the trained CNN model was compared with traditional traffic light c
 
 The results demonstrate a clear improvement over traditional traffic lights, with confidence intervals included in the plots.
 
-![Average Velocity Along Escenary](Results/CNN/temporal_speed_cnn.pdf)
-![Average Velocity](Results/CNN/comparison_speed.pdf)
-![Average Waiting Time](Results/CNN/comparison_waiting_time.pdf)
+[Average Velocity Along Escenary](Results/CNN/temporal_speed_cnn.pdf)
+[Average Velocity](Results/CNN/comparison_speed.pdf)
+[Average Waiting Time](Results/CNN/comparison_waiting_time.pdf)
 
 ---
 
